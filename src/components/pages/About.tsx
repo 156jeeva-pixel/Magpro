@@ -3,8 +3,8 @@ import { Target, Eye, Award, Users, Briefcase } from 'lucide-react';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
 import { Card } from '../ui/card';
 import { Badge } from '../ui/badge';
-import mamPic from '../Assets/Mam-pic.jpg';
-import sirPic from '../Assets/Sir-pic.jpg';
+import mamPic from '../../assets/Mam-pic.jpg';
+import sirPic from '../../assets/Sir-pic.jpg';
 
 export default function About() {
   const values = [
