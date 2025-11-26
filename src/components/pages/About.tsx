@@ -54,7 +54,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-6">
-              About <span className="text-[#2D5BFF]">MAG</span>
+              About <span className="text-[#2D5BFF]">MAGRR</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               We are dedicated to empowering individuals and organizations through transformative soft skills training that drives real-world success.
@@ -71,7 +71,7 @@ export default function About() {
               <h2 className="text-3xl md:text-4xl text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  Founded in 2010, MAG emerged from a simple yet powerful vision: to bridge the gap between academic knowledge and essential soft skills required in the professional world.
+                  Founded in 2010, MAGRR emerged from a simple yet powerful vision: to bridge the gap between academic knowledge and essential soft skills required in the professional world.
                 </p>
                 <p>
                   Over the past 15 years, we've grown from a small training consultancy to a leading provider of soft skills development programs, serving over 500 organizations and impacting more than 50,000 professionals across industries.
@@ -84,7 +84,7 @@ export default function About() {
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <ImageWithFallback
                 src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800"
-                alt="MAG office"
+                alt="MAGRR office"
                 className="w-full h-auto"
               />
             </div>

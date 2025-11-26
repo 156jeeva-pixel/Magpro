@@ -75,7 +75,7 @@ export default function PopupModal({ onNavigate }: PopupModalProps) {
           {/* Description */}
           <p className="text-lg text-gray-600 leading-relaxed">
             Book a free consultation with our experts or connect with us instantly on WhatsApp. 
-            Let's discuss how MAG can elevate your team's soft skills.
+            Let's discuss how MAGRR can elevate your team's soft skills.
           </p>
 
           {/* Buttons */}

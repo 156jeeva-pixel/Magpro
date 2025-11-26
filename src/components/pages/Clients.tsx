@@ -105,7 +105,7 @@ export default function Clients({ onNavigate }: ClientsProps) {
       role: 'Chief Learning Officer',
       company: 'TechVision Solutions',
       image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300',
-      quote: 'MAG has been instrumental in transforming our leadership pipeline. Their tailored approach to soft skills training resulted in a 40% improvement in our employee engagement scores within six months.',
+      quote: 'MAGRR has been instrumental in transforming our leadership pipeline. Their tailored approach to soft skills training resulted in a 40% improvement in our employee engagement scores within six months.',
       rating: 5,
     },
     {
@@ -113,7 +113,7 @@ export default function Clients({ onNavigate }: ClientsProps) {
       role: 'Dean of Business',
       company: 'Global University',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300',
-      quote: 'The partnership with MAG elevated our career readiness programs to world-class standards. Our graduates now enter the workforce with confidence and the practical skills employers demand.',
+      quote: 'The partnership with MAGRR elevated our career readiness programs to world-class standards. Our graduates now enter the workforce with confidence and the practical skills employers demand.',
       rating: 5,
     },
     {
@@ -121,7 +121,7 @@ export default function Clients({ onNavigate }: ClientsProps) {
       role: 'VP of Human Resources',
       company: 'InnovateCorp',
       image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300',
-      quote: 'We chose MAG for their proven methodology and industry expertise. The measurable impact on our team collaboration and communication has exceeded all expectations. Truly exceptional service.',
+      quote: 'We chose MAGRR for their proven methodology and industry expertise. The measurable impact on our team collaboration and communication has exceeded all expectations. Truly exceptional service.',
       rating: 5,
     },
   ];
@@ -218,7 +218,7 @@ export default function Clients({ onNavigate }: ClientsProps) {
               Around the Globe
             </h1>
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Leading corporations, universities, and institutions choose MAG to transform their teams through world-class soft skills training
+              Leading corporations, universities, and institutions choose MAGRR to transform their teams through world-class soft skills training
             </p>
           </div>
 
@@ -412,7 +412,7 @@ export default function Clients({ onNavigate }: ClientsProps) {
               What Our Clients Say
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-              Hear directly from leaders who have experienced the MAG difference
+              Hear directly from leaders who have experienced the MAGRR difference
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -448,12 +448,12 @@ export default function Clients({ onNavigate }: ClientsProps) {
         </div>
       </section>
 
-      {/* Why Organizations Choose MAG */}
+      {/* Why Organizations Choose MAGRR */}
       <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-4">
-              Why Organizations Choose MAG
+              Why Organizations Choose MAGRR
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
               Comprehensive solutions backed by expertise, innovation, and proven results
@@ -483,7 +483,7 @@ export default function Clients({ onNavigate }: ClientsProps) {
             Ready to Transform Your Organization?
           </h2>
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Join hundreds of leading organizations worldwide that trust MAG to develop their teams, enhance capabilities, and drive measurable success.
+            Join hundreds of leading organizations worldwide that trust MAGRR to develop their teams, enhance capabilities, and drive measurable success.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

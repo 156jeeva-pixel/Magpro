@@ -34,7 +34,7 @@ export default function Navbar({ currentPage, onNavigate }: NavbarProps) {
             onClick={() => onNavigate('Home')}
           >
             <span className="text-2xl md:text-3xl font-bold text-[#2D5BFF] transition-all duration-300 group-hover:scale-105">
-              MAG
+              MAGRR
             </span>
           </div>
 
