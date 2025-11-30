@@ -4,7 +4,6 @@ import { Button } from '../ui/button';
 import { Input } from '../ui/input';
 import { Textarea } from '../ui/textarea';
 import { Card } from '../ui/card';
-import { Badge } from '../ui/badge';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -66,14 +65,14 @@ export default function Contact() {
   return (
     <div className="min-h-screen pt-16 md:pt-20">
       {/* Hero Section */}
-      <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#2D5BFF]/5 to-white">
+      <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-[#2D5BFF]/5 to-white">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-6">
            Let’s get <span className="text-[#2D5BFF]">connected</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-We welcome your inquiries and are committed to providing prompt and helpful support. 
-Connect with us for assistance, collaboration, or custom solutions.
+            We’re here to help and respond quickly to your inquiries.
+            Reach out anytime for support, collaboration opportunities, or tailored solutions.
           </p>            
         </div>
       </section>
@@ -81,7 +80,7 @@ Connect with us for assistance, collaboration, or custom solutions.
       {/* Contact Info Cards */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {contactInfo.map((info, index) => (
               <Card
                 key={index}
@@ -226,10 +225,10 @@ Connect with us for assistance, collaboration, or custom solutions.
               </Card>
 
               {/* FAQ Card */}
-              <Card className="p-8 bg-gradient-to-br from-[#2D5BFF] to-[#1E40CC] text-white rounded-3xl border-none shadow-lg">
-                <h3 className="text-2xl mb-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quick Response</h3>
+              <Card className="p-8 bg-linear-to-br from-[#2D5BFF] to-[#1E40CC] text-white rounded-3xl border-none shadow-lg">
+                <h3 className="text-2xl mb-4">Quick Response</h3>
                 <p className="text-lg opacity-90">
-                 “Responses are usually provided within 24 hours on business  days. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For urgent concerns, please contact our  team directly.”
+                 Responses are usually provided within 24 hours on business  days. For urgent concerns, please contact our team directly.
                 </p>
               </Card>
             </div>
