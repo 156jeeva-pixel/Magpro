@@ -1,6 +1,9 @@
-import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Youtube, Linkedin, Instagram } from 'lucide-react';
+type FooterProps = {
+  onNavigate: (page: string) => void;
+};
 
-export default function Footer() {
+export default function Footer({ onNavigate }: FooterProps) {
   return (
     <div className="bg-gray-200 rounded-t-4xl overflow-hidden mt-16">
       <footer className="bg-gray-900 text-gray-300 px-8 md:px-16 py-14">
@@ -17,17 +20,28 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Quick Links */}
+         {/* Quick Links */}
           <div>
-            <h4 className="text-white text-lg font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-[#2D5BFF] transition">Home</a></li>
-              <li><a href="#" className="hover:text-[#2D5BFF] transition">About Us</a></li>
-              <li><a href="#" className="hover:text-[#2D5BFF] transition">Services</a></li>
-              <li><a href="#" className="hover:text-[#2D5BFF] transition">Clients</a></li>
-              <li><a href="#" className="hover:text-[#2D5BFF] transition">Contact</a></li>
-            </ul>
+             <h4 className="text-white text-lg font-semibold mb-4">Quick Links</h4>
+             <ul className="space-y-2 text-sm">
+             <li>
+            <button onClick={() => onNavigate("Home")}  className="hover:text-[#2D5BFF] transition"> Home</button>
+            </li>
+              <li>
+            <button onClick={() => onNavigate("About")}  className="hover:text-[#2D5BFF] transition">  About Us </button>
+             </li>
+              <li>
+           <button onClick={() => onNavigate("Services")} className="hover:text-[#2D5BFF] transition">  Services</button>
+             </li>
+              <li>
+           <button onClick={() => onNavigate("Clients")} className="hover:text-[#2D5BFF] transition"> Clients </button>
+              </li>
+               <li>
+           <button onClick={() => onNavigate("Contact")} className="hover:text-[#2D5BFF] transition"> Contact</button>
+              </li>
+              </ul>
           </div>
+
 
           {/* Contact Info */}
           <div>
@@ -59,13 +73,13 @@ export default function Footer() {
                 <Facebook size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/channel/UCeoqPQv2LAEkNMEVzrmLUCg"
                 className="bg-gray-800 p-2 rounded-full hover:bg-[#2D5BFF] transition-all duration-300 hover:scale-110"
               >
-                <Twitter size={20} />
+                <Youtube size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/mag-resources-revolution/"
                 className="bg-gray-800 p-2 rounded-full hover:bg-[#2D5BFF] transition-all duration-300 hover:scale-110"
               >
                 <Linkedin size={20} />

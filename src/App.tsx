@@ -43,7 +43,7 @@ export default function App() {
     <div className="min-h-screen bg-white">
       <Navbar currentPage={currentPage} onNavigate={handleNavigate} />
       <main>{renderPage()}</main>
-      <Footer />
+      <Footer onNavigate={handleNavigate} />
       <WhatsAppButton />
       <PopupModal onNavigate={handleNavigate} />
     </div>
