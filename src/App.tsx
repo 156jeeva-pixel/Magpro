@@ -6,7 +6,7 @@ import PopupModal from './components/PopupModal';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Services from './components/pages/Services';
-import Clients from './components/pages/Clients';
+// import Clients from './components/pages/Clients';
 import Contact from './components/pages/Contact';
 
 export default function App() {
@@ -30,8 +30,8 @@ export default function App() {
         return <About />;
       case 'Services':
         return <Services onNavigate={handleNavigate} />;
-      case 'Clients':
-        return <Clients onNavigate={handleNavigate} />;
+      // case 'Clients':
+      //   return <Clients onNavigate={handleNavigate} />;
       case 'Contact':
         return <Contact />;
       default:
