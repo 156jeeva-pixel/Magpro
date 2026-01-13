@@ -95,11 +95,6 @@ export default function PopupModal({ onNavigate }: PopupModalProps) {
               Chat on WhatsApp
             </Button>
           </div>
-
-          {/* Dismiss text */}
-          <p className="text-sm text-gray-400 pt-2">
-            Click outside to dismiss
-          </p>
         </div>
       </div>
 
