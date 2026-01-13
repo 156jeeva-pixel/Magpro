@@ -211,7 +211,7 @@ ${name}
                     value={formData.name}
                     onChange={handleChange}
                     className='w-full px-4 py-3 rounded-xl border-gray-300 focus:border-[#2D5BFF] focus:ring-[#2D5BFF]'
-                    placeholder='John Doe'
+                    placeholder='Your Name'
                   />
                 </div>
                 <div>
@@ -229,7 +229,7 @@ ${name}
                     value={formData.email}
                     onChange={handleChange}
                     className='w-full px-4 py-3 rounded-xl border-gray-300 focus:border-[#2D5BFF] focus:ring-[#2D5BFF]'
-                    placeholder='john@example.com'
+                    placeholder='name@example.com'
                   />
                 </div>
                 <div>
