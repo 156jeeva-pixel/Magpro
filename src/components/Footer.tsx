@@ -106,7 +106,12 @@ export default function Footer({ onNavigate }: FooterProps) {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin size={16} className="text-[#2D5BFF] mt-1" />
-                <span>VQ7P+WPQ, Thavalakuppam, Puducherry 605007, India</span>
+                <span>No.7, Ground Floor, TST complex,
+                      Imperial Road,
+                      Cuddalore Old Town,
+                      Cuddalore – 607003
+                      Tamil Nadu
+                </span>
               </li>
             </ul>
           </div>
