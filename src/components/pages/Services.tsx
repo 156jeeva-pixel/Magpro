@@ -1,12 +1,15 @@
 
 import { Card } from "../ui/card";
 import { Badge } from "../ui/badge";
-import ser1 from '../../assets/ser1.JPG';
-import ser3 from '../../assets/ser3.png';
-import ser7 from '../../assets/ser7.PNG';
-import ser9 from '../../assets/ser9.PNG';
-import ser10 from '../../assets/ser10.jpg';
-import ser11 from '../../assets/ser11.PNG';
+import {
+  FaUsers,
+  FaPeopleArrows,
+  FaGraduationCap,
+  FaGlobe,
+  FaUserTie,
+  FaUserGraduate,
+} from "react-icons/fa";
+
 interface ServicesProps {
   onNavigate: (page: string) => void;
 }
@@ -14,7 +17,7 @@ interface ServicesProps {
 export default function Services({ onNavigate }: ServicesProps) {
   const services = [
     {
-      image: ser1,
+      icon: FaUsers,
       category: "Talent Acquisition ",
       title: "Recruitment Consultation",
       duration: "Flexible",
@@ -25,7 +28,7 @@ export default function Services({ onNavigate }: ServicesProps) {
       popular: true,
     },
     {
-      image: ser3,
+      icon: FaGraduationCap,
       category: "Professional Development",
       title: "Upskilling Resources",
       duration: "Ongoing",
@@ -36,7 +39,7 @@ export default function Services({ onNavigate }: ServicesProps) {
       popular: false,
     },
     {
-      image: ser7,
+      icon: FaPeopleArrows,
       category: "Core Training",
       title: "Soft Skills Training",
       duration: "Customized",
@@ -47,7 +50,7 @@ export default function Services({ onNavigate }: ServicesProps) {
       popular: true,
     },
     {
-      image: ser9,
+      icon: FaGlobe,
       category: "International Expansion",
       title: "Globalization Services",
       duration: "Customized",
@@ -58,7 +61,7 @@ export default function Services({ onNavigate }: ServicesProps) {
       popular: false,
     },
     {
-      image: ser10,
+      icon: FaUserTie,
       category: "Individual Development",
       title: "Career Coaching",
       duration: "Customized",
@@ -69,7 +72,7 @@ export default function Services({ onNavigate }: ServicesProps) {
       popular: false,
     },
     {
-      image: ser11,
+      icon: FaUserGraduate,
       category: "Student Success",
       title: "Early Career Guidance",
       duration: "Customized",
@@ -120,19 +123,10 @@ export default function Services({ onNavigate }: ServicesProps) {
             {services.map((service, index) => (
               <Card
                 key={index}
-                className="group p-5 bg-white rounded-2xl  shadow-md border-gray-100 hover:border-[#2D5BFF] hover:-translate-y-2 transition-all duration-300 cursor-pointer  hover:shadow-blue-300">
-              
-                
-      <div className="relative w-70 h-70 overflow-hidden rounded-t-2xl">
-  <img
-    src={service.image}
-    alt={service.title}
-    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-  />
-</div>
-
-
-               
+                className="group p-5 bg-white rounded-2xl  shadow-md border-gray-100 hover:border-[#2D5BFF] hover:-translate-y-2 transition-all duration-300 cursor-pointer  hover:shadow-blue-300">  
+            <div className="flex items-center justify-center h-40 mb-4 ">
+             <service.icon className="text-[#2D5BFF] text-7xl group-hover:scale-110 transition-transform duration-300" />
+              </div>
                 <p className="text-sm text-[#2D5BFF] mb-2 p-[5px] ">
                   {service.category}
                 </p>
